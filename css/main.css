@@ -1,0 +1,38 @@
+
+:root{
+   --dark-blue:#1F438C;
+   --white:#ECEEF1;
+}
+
+.hero-header-container{
+    display: flex;
+    margin: 20px 30px;
+}
+
+.hero-header-container h1{
+    font-size: 50px;
+}
+
+.container-fluid{
+    background-color: var(--dark-blue);
+}
+
+.navbar a{
+    padding:0px 52px; 
+    color: var(--white);
+}
+
+.vert-line{
+    border: 1px solid var(--white);
+    height: 30px;
+}
+
+#about-container h1{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.question-blue{
+    max-width: 100%;
+    background-color: var(--dark-blue);
+}
