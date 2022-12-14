@@ -5,24 +5,30 @@
    --grey:#BFBFBF;
 }
 
+.hero-header-container{
+
+    margin: 0px 300px;
+}
+
 .hero-header-container img{
     max-width: 100%;
 }
 
-.container-nav{
+.nav{
     background-color: var(--dark-blue);
 }
 
-.navbar-nav a{
-    font-size: 25px;
-    margin: 0px 150px;
+.nav-item a{
     color: var(--white);
+    font-size: 30px;
+    margin:0px 5em;
 }
 
 .vert-line{
     border: 1px solid var(--white);
     height: 30px;
-    margin-top:10px;  
+    margin:19px 10px; 
+    
 }
 
 #about-container h1,#skies-container h1{
@@ -31,25 +37,24 @@
     
 }
 
-.question-blue{
-    margin: 20px 300px;
-    max-width: 50%;
+#question-blue{
+    width:50%;
     background-color: var(--dark-blue);
 }
 
-.question-blue h4{
+#question-blue h4{
     text-align: center;
     color: var(--white);
 }
 
 .partext p{
-    margin: 20px 300px;
+    margin: 20px 330px;
     text-align: justify;
     max-width: 50%;
 }
 
 .sub-heading{
-    margin: 20px 300px;
+    margin: 20px 323px;
     background-color: var(--grey);
     max-width: 20%;
 }
