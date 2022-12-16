@@ -1,0 +1,14 @@
+@media screen and (max-width: 1400px) {
+    .nav-item a{
+      font-size: 25px;
+      margin:0px 1em;
+    }
+
+    .dispaly{
+        width: 30%;
+        position: absolute;
+        margin: 1em 5em;
+        display: block;
+    }
+
+}
