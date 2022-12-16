@@ -10,12 +10,15 @@
 }
 
 .hero-header-container{
-
-    margin: 0px 300px;
+    margin: 0px 300px; 
 }
 
 .hero-header-container img{
-    max-width: 100%;
+    max-width:100%
+}
+
+.container-fluid{
+    max-width:100% !important;
 }
 
 .nav{
@@ -50,21 +53,21 @@
     background-color: var(--dark-blue);
 }
 
-#question-blue h4{
+#question-blue p{
     text-align: center;
     color: var(--white);
+}
+
+.sub-heading{
+    margin: 20px 312px;
+    background-color: var(--grey);
+    max-width: 20%;
 }
 
 .partext p{
     margin: 20px 330px;
     text-align: justify;
     max-width: 50%;
-}
-
-.sub-heading{
-    margin: 20px 323px;
-    background-color: var(--grey);
-    max-width: 20%;
 }
 
 #skies-container{
@@ -99,7 +102,6 @@
     width: 15%;
     position: absolute;
     margin: 20px 300px;
-    animation: slideDown 10s 1;
     display: block;
 }
 
@@ -108,6 +110,5 @@
     text-align: center;
 }
 
-@keyframes slideDown {
-	
-}
+
+
