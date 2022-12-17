@@ -31,21 +31,19 @@
 }
 
 .vert-line {
-  border: 1px solid var(--white);
   height: 1rem;
   margin: 0.5rem 0rem;
 }
 
 
 #about-container h1, #skies-container h1 {
-  text-align: center;
   margin: 13px;
   font-size: 18px;
 }
 
 #question-blue {
   margin: 0rem 0rem;
-  width: 93vw;
+  width: 88vw;
 }
 
 #question-blue p {
