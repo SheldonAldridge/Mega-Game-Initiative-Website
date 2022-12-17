@@ -51,6 +51,7 @@
 #question-blue{
     width:50%;
     background-color: var(--dark-blue);
+    margin: 0px 260px;
 }
 
 #question-blue p{
@@ -58,16 +59,26 @@
     color: var(--white);
 }
 
-.sub-heading{
-    margin: 20px 312px;
-    background-color: var(--grey);
-    max-width: 20%;
+.par-who,.par-what{
+    width:50%;
+    margin: 0px 260px;
 }
 
-.partext p{
-    margin: 20px 330px;
+.text-start{
     text-align: justify;
-    max-width: 50%;
+}
+
+.text-sm-start{
+    width: 550px;
+}
+
+#education,#entertainment{
+    margin: 20px 260px;
+}
+
+.sub-heading{
+    background-color: var(--grey);
+    max-width: 40%;
 }
 
 #skies-container{

@@ -12,3 +12,81 @@
     }
 
 }
+
+@media screen and (max-width: 992px) {
+  #question-blue{
+    margin: 0px 224px;
+}
+
+.text-start{
+  margin: 17px -36px;
+  width:480px;
+}
+
+#education,#entertainment{
+    margin: 20px 260px;
+}
+
+.sub-heading{
+  margin: 20px -36px;
+}
+
+}
+
+@media screen and (max-width: 768px) {
+  #question-blue{
+    margin: 0px 172px;
+}
+
+.text-start{
+  margin: 17px -79px;
+  width: 363px;
+}
+
+#education,#entertainment{
+  margin: 20px 206px;
+}
+
+.sub-heading{
+  margin: 20px -36px;
+}
+
+.text-sm-start{
+  width: 414px;
+  padding-left: 51px;
+}
+
+}
+
+@media screen and (max-width: 576px) {
+  #question-blue{
+    margin: 0px 134px;
+}
+
+.h3{
+  font-size: 20px;
+}
+
+.text-start{
+  margin: 17px -126px;
+  width: 300px;
+}
+
+#education,#entertainment{
+  margin: 20px 206px;
+}
+
+.sub-heading{
+  margin: 20px -36px;
+}
+
+.text-sm-start{
+  width: 414px;
+  padding-left: 51px;
+}
+
+.par-who, .par-what {
+  font-size: 12px;
+}
+
+}
