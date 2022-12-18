@@ -43,7 +43,7 @@
 
 #question-blue {
   margin: 0rem 0rem;
-  width: 88vw;
+  width: 93vw;
 }
 
 #question-blue p {
@@ -138,9 +138,10 @@ h6{
 }
 
 .col img {
-  max-width: 29vw;
+  max-width: 50vw;
   display: grid;
   grid-template-columns: repeat(2,1fr);
+  margin-left: 8rem;
 }
 
 }
@@ -178,7 +179,7 @@ h6{
 
 #question-blue {
   margin: 0rem 5.5rem;
-  width: 65vw;
+  width: 68vw;
 }
 
 #question-blue p {
@@ -206,6 +207,7 @@ h6{
   max-width: 29vw;
   display: grid;
   grid-template-columns: repeat(2,1fr);
+  margin: 1rem 3rem;
 }
 
 }
@@ -285,8 +287,8 @@ h6{
     .dispaly {
       background-color: var(--dark-blue);
       color: var(--white);
-      width: 75%;
-      margin: -14em -31em;
+      width: 87.5%;
+      margin: -16em -44.3em;
       display: block;
       text-align: center;
       font-size: 19px;
@@ -294,7 +296,7 @@ h6{
     
     .nav-item a {
         font-size: 18px;
-        margin: 0rem 0rem;
+        margin: 0rem 10rem;
     }
     
     .vert-line {
@@ -308,8 +310,8 @@ h6{
     }
     
     #question-blue {
-      margin: 0rem 16rem;
-      width: 50vw;
+      margin: 0rem 15rem;
+      width: 45vw;
     }
     
     #question-blue p {
@@ -319,12 +321,13 @@ h6{
     }
     
     .fs-6 {
-      padding: 0rem 16rem;
+      padding: 0rem 15rem;
+      width: 80vw;
     }
     
     .grey{
       background-color: var(--grey);
-      margin-left: 16rem;
+      margin-left: 15rem;
       margin-right: 16.2rem;
     }
     
@@ -357,15 +360,15 @@ h6{
     background-color: var(--dark-blue);
     color: var(--white);
     width: 75%;
-    margin: -14em -31em;
+    margin: -13em -30em;
     display: block;
     text-align: center;
-    font-size: 19px;
+    font-size: 26px;
   }
   
   .nav-item a {
-      font-size: 18px;
-      margin: 0rem 0rem;
+    font-size: 25px;
+    margin: 0rem 7rem;
   }
   
   .vert-line {
@@ -379,8 +382,8 @@ h6{
   }
   
   #question-blue {
-    margin: 0rem 16rem;
-    width: 50vw;
+    margin: 0rem 21rem;
+    width: 43vw;
   }
   
   #question-blue p {
@@ -390,13 +393,13 @@ h6{
   }
   
   .fs-6 {
-    padding: 0rem 16rem;
+    padding: 0rem 21rem;
   }
   
   .grey{
     background-color: var(--grey);
-    margin-left: 16rem;
-    margin-right: 16.2rem;
+    margin-left: 21rem;
+    margin-right: 22.3rem;
   }
   
   h6{
@@ -417,3 +420,77 @@ h6{
 }
   
 }
+
+@media (min-width: 1600px) {
+
+  .hero-header-container{
+    margin: 0rem 17rem;
+  }
+  
+  .dispaly {
+    background-color: var(--dark-blue);
+    color: var(--white);
+    width: 67.56%;
+    margin: -13em -35em;
+    display: block;
+    text-align: center;
+    font-size: 26px;
+  }
+  
+  .nav-item a {
+    font-size: 25px;
+    margin: 0rem 7rem;
+  }
+  
+  .vert-line {
+    height: 1.5rem;
+    margin: 1rem 0rem;
+  }
+  
+  #about-container h1, #skies-container h1 {
+    margin: 1rem;
+    font-size: 40px;
+  }
+  
+  #question-blue {
+    margin: 0rem 25rem;
+    width: 25vw;
+}
+#question-blue p {
+  text-align: center;
+  font-size: 25px;
+  color: var(--white);
+}
+
+.fs-6 {
+  padding: 0rem 25rem;
+}
+
+#text{
+  font-size:20px !important;
+}
+
+.grey{
+  background-color: var(--grey);
+  margin-left: 25rem;
+  margin-right: 26rem;
+}
+
+h6{
+  padding: 0rem 0.5rem;
+  
+}
+
+.col img {
+  max-width: 100%;
+  margin: 0px 10px;
+  
+}
+
+#skies-container {
+  background-color: var(--dark-blue);
+  color: var(--white);
+  padding-bottom: 1rem;
+}
+  }
+  
