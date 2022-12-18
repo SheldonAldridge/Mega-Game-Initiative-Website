@@ -4,7 +4,7 @@
   --grey:#BFBFBF;
 }
 
-@media (max-width: 349px){
+@media (min-width: 300px){
 
   .hero-header-container{
     margin: 0rem 3rem;
@@ -42,7 +42,7 @@
 
 #question-blue {
   margin: 0rem 0rem;
-  width: 93vw;
+  width: 86vw;
 }
 
 #question-blue p {
