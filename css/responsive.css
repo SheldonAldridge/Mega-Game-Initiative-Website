@@ -4,7 +4,7 @@
   --grey:#BFBFBF;
 }
 
-@media (min-width: 200px){
+@media (max-width: 300px){
 
   .hero-header-container{
     margin: 0rem 3rem;
@@ -12,84 +12,7 @@
 
   .hero-header-container img {
     width: 100vw;
-    height: 3vh;
-}
-
-.dispaly {
-  background-color: var(--dark-blue);
-  color: var(--white);
-  width: 68%;
-  margin: -5.5em -14.5em;
-  display: block;
-  text-align: center;
-  font-size: 10px;
-}
-
-.nav-item a {
-    font-size: 9px;
-    margin: 0rem 0rem;
-}
-
-.vert-line {
-  height: 1rem;
-  margin: 0.5rem 0rem;
-}
-
-
-#about-container h1, #skies-container h1 {
-  margin: 13px;
-  font-size: 18px;
-}
-
-#question-blue {
-  margin: 0rem 0rem;
-  width: 86vw;
-}
-
-#question-blue p {
-  text-align: center;
-  font-size: 14px;
-  color: var(--white);
-}
-
-.h3{
-  font-size: 20px;
-}
-
-.grey{
-  background-color: var(--grey);
-  margin-left: 0rem;
-  margin-right: -0.1rem;
-}
-
-h6{
-  padding: 0rem 0.5rem;
-  
-}
-
-.fs-6 {
-  max-width: 100%;
-  padding: 0rem 0.5rem;
-  font-size: 10px;
-  text-align: justify;
-}
-
-.col img {
-  max-width: 69vw;
-  margin: 1rem 2rem;
-}
-
-}
-
-@media (min-width: 300px){
-
-  .hero-header-container{
-    margin: 0rem 3rem;
-  }
-
-  .hero-header-container img {
-    width: 100vw;
-    height: 4vh;
+    height: 5vh;
 }
 
 .dispaly {
