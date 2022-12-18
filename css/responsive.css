@@ -5,7 +5,7 @@
 }
 
 
-@media (min-width: 350px){
+@media (max-width: 350px){
 
   .hero-header-container{
     margin: 0rem 3rem;
@@ -26,7 +26,7 @@
 }
 
 .nav-item a {
-    font-size: 8px;
+    font-size: 10px;
     margin: 0rem 0rem;
 }
 
@@ -43,7 +43,7 @@
 
 #question-blue {
   margin: 0rem 0rem;
-  width: 93vw;
+  width: 88vw;
 }
 
 #question-blue p {
@@ -75,7 +75,7 @@ h6{
 
 .col img {
   max-width: 69vw;
-  margin: 1rem 3rem;
+  margin: 1rem 2rem;
 }
 
 }
