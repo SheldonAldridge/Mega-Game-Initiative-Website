@@ -43,7 +43,7 @@
 
 #question-blue {
   margin: 0rem 0rem;
-  width: 86vw;
+  width: 92vw;
 }
 
 #question-blue p {
@@ -59,7 +59,7 @@
 .grey{
   background-color: var(--grey);
   margin-left: 0rem;
-  margin-right: -0.1rem;
+  margin-right: 0rem;
 }
 
 h6{
@@ -89,14 +89,14 @@ h6{
 
   .hero-header-container img {
     width: 100vw;
-    height: 10vh;
+    height: 6vh;
 }
 
 .dispaly {
   background-color: var(--dark-blue);
   color: var(--white);
   width: 63%;
-  margin: -6em -14em;
+  margin: -5em -14em;
   display: block;
   text-align: center;
   font-size: 12px;
@@ -120,7 +120,7 @@ h6{
 
 #question-blue {
   margin: 0rem 0rem;
-  width: 87vw;
+  width: 92vw;
 }
 
 #question-blue p {
@@ -136,7 +136,7 @@ h6{
 .grey{
   background-color: var(--grey);
   margin-left: 0rem;
-  margin-right: 0.1rem;
+  margin-right: 0.3rem;
 }
 
 h6{
@@ -230,7 +230,7 @@ h6{
 
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px){
 
   .hero-header-container{
     margin: 0rem 3rem;
