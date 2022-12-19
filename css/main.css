@@ -1,5 +1,5 @@
-*{
-    margin: 0;
+body{
+    margin: auto !important;
     box-sizing: border-box;
 }
 
@@ -9,37 +9,36 @@
    --grey:#BFBFBF;
 }
 
-.hero-header-container{
-    margin: 0px 300px; 
+#full-width{
+    padding:0em 0em;
 }
 
-.hero-header-container img{
-    max-width:100%
+#darkblue{
+    background-color: var(--dark-blue) !important; 
 }
 
-.container-fluid{
-    max-width:100% !important;
+#burger-nav{
+    padding:0.2em;
+    border-color: var(--white);
 }
 
-.nav{
-    background-color: var(--dark-blue);
+span{
+    filter: invert(99%) sepia(31%) saturate(356%) hue-rotate(176deg) brightness(98%) contrast(92%);
 }
 
-.nav-link:hover{
+
+.nav-link{
     color: var(--white) !important;
+    margin: 0.5em;
+    text-decoration: underline !important;
 }
 
-.nav-item a{
-    color: var(--white);
-    font-size: 30px;
-    margin:0px 5em;
-}
+
 
 .vert-line{
     border: 1px solid var(--white);
-    height: 30px;
-    margin:19px 10px; 
-    
+    height: 15px;
+    margin: 8px 2px;
 }
 
 #about-container h1,#skies-container h1{
@@ -103,22 +102,6 @@
 .skies-text{
     width: 700px;
     margin: 20px 300px;
-}
-
-.email{
-    display: none;
-}
-
-.dispaly{
-    width: 15%;
-    position: absolute;
-    margin: 20px 300px;
-    display: block;
-}
-
-.email p{
-    color: var(--white);
-    text-align: center;
 }
 
 

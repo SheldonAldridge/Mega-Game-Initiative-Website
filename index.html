@@ -26,42 +26,49 @@
 
   <body>
 
-    <div class="container container-fluid">
-      <div class="hero-header-container">
-        <img src="./Images/Logo/Banner.png" alt="Banner" />
-      </div>
-
-
-      <ul class="nav justify-content-center">
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="#about-container">About Us</a>
-        </li>
-        <li class="vert-line"></li>
-        <li class="nav-item">
-          <a class="nav-link" href="#skies-container">Watch The Skies</a>
-        </li>
-        <li class="vert-line"></li>
-        <li class="nav-item">
-          <a class="nav-link contact" href="">Contact</a>
-          <p class="email">email: hello@megagameinitiative.co.za</p>
-        </li>
-      </ul>
-    
+    <div class="container-fluid">
+        <img class="img-fluid"  src="./Images/Logo/Banner.png" alt="Banner" />
     </div>
 
+    <div class="container" id="full-width">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light" id="darkblue">
+        <div class="container-fluid">
+          <button class="navbar-toggler" id="burger-nav" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" id="burger-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#about-container">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skies-container">Watch The Skies</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#contact-container">Contact</a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
     
 
-    <div class="container" id="about-container">
+    
+
+    <div id="about-container">
       <h1>About Us</h1>
 
       <div id="question-blue">
         <p class="h3">Who are we?</p>
       </div>
       
-        <p class="fs-6" id="text">
+        <div class="fs-6">
           Mega Games Initiative is a games design association, developing and
           facilitating megagames to entertain, educate and inspire.
-        </p>
+        </div>
       
 
       <div id="question-blue">
@@ -111,9 +118,9 @@
           entertainment and community to players.
         </p>
       
-    </div>
+    
   
-    <div class="container-fluid" id="skies-container">
+    <div id="skies-container">
       <div class="skies">
         <h1>Watch The Skies</h1>
       </div>
@@ -141,6 +148,11 @@
 
       </div>
     </div>
+  </div>
+
+
+    
+  
 
   </body>
 </html>
