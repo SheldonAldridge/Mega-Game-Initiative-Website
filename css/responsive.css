@@ -141,22 +141,15 @@ h6{
 
 }
 */
+
 @media (min-width: 576px) {
 
-  .hero-header-container{
-    margin: 0rem 3rem;
-  }
+#banner img{
+  padding:1em;
+}
 
-
-
-.dispaly {
-  background-color: var(--dark-blue);
-  color: var(--white);
-  width: 75%;
-  margin: -8em -21em;
+collapse:not(.show) {
   display: block;
-  text-align: center;
-  font-size: 13px;
 }
 
 .nav-item a {
@@ -174,38 +167,26 @@ h6{
   font-size: 20px;
 }
 
-#question-blue {
-  margin: 0rem 3rem;
-  width: 73vw;
-}
-
-.fs-6 {
-  padding: 0rem 3rem;
-  
-}
-
 #question-blue p {
   text-align: center;
   font-size: 16px;
   color: var(--white);
 }
 
-.grey{
-  background-color: var(--grey);
-  margin-left: 3rem;
-  margin-right: 3rem;
-}
 
 h6{
   padding: 0rem 0.5rem;
   
 }
 
-.col img {
-  max-width: 50vw;
+.col-sm-3 {
+  width: 100%;
+}
+
+#grid {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
-  margin-left: 8rem;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 1em 10em;
 }
 
 }
