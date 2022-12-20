@@ -9,10 +9,6 @@ body{
    --grey:#BFBFBF;
 }
 
-.img-fluid {
-    padding: 0em 1em;
-}
-
 #banner{
     padding: 0.5em 3em;
 }
@@ -41,12 +37,6 @@ body{
     color: var(--white) !important;
     margin: 0.5em;
     text-decoration: underline !important;
-}
-
-.vert-line{
-    border: 1px solid var(--white);
-    height: 15px;
-    margin: 8px 2px;
 }
 
 #about-container h1,#skies-container h1{

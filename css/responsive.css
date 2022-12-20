@@ -5,10 +5,10 @@
 }
 
 
-@media (min-width: 576px) and (orientation: landscape) {
+@media (min-width: 576px) {
 
   .img-fluid {
-    padding: 0em 1em;
+    padding: 0em 3em;
 }
 
   #full-width {
@@ -35,7 +35,7 @@
 @media (min-width: 768px){
 
   .img-fluid {
-    padding: 0em 3em;
+    padding: 0em 6em;
 }
 
   #full-width {
@@ -44,13 +44,13 @@
 }
 
   #question-blue,#grey{
-    max-width: 80%;
-    margin: 0em 5em;
+    width: 80%;
+    margin: 0em auto;
   }
 
   #center{
-    max-width: 80%;
-    margin: 0em 5em;
+    max-width: 83%;
+    margin: 0em auto;
   }
 
   #grid{
@@ -66,10 +66,42 @@
   
 }
 
-
-
 @media (min-width: 992px) {
 
+  .img-fluid {
+    padding: 0em 6em;
+}
+
+  #full-width {
+    padding: 0em 0em;
+    max-width: 100vw;
+}
+
+  #question-blue,#grey{
+    width: 80%;
+    margin: 0em auto;
+  }
+
+  #center{
+    max-width: 83%;
+    margin: 0em auto;
+  }
+
+  #grid{
+    padding: 0em 12em;
+  }
+
+  #crop img {
+    height: 10em;
+    width: 10em;
+    
+}
+
+  #vert-line{
+    border: 1px solid var(--white);
+    height: 15px;
+    margin: 8px 2px;
+}
 }
 
 @media (min-width: 1200px) {
