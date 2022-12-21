@@ -41,7 +41,7 @@ body{
 
 #about-container h1,#skies-container h1{
     text-align: center;
-    margin: 20px;
+    margin: 1em auto;
 }
 
 #question-blue{
