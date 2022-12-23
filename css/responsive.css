@@ -25,9 +25,24 @@
     max-width: 100%;
     margin: 1em 4em;
   }
-  
 
- 
+  #grid{
+    display: flex;
+    
+    max-width:87%;
+}
+
+#crop img{
+    object-fit: cover;
+    width: 66vw;
+    height: 19vh;
+    padding-bottom: 1em;
+}
+
+#crop p{
+    text-align: center;
+    margin-left: -2em;
+}
 
 }
 
@@ -133,24 +148,18 @@
 
 @media (min-width: 1400px) {
 
+  #grid{
+    margin: 10em;
+  }
+
   #banner {
     padding: 1em 10em;
 }
 
   .nav-item {
   font-size: 25px;
-  margin: 0.5em 5em;
+  margin: 0.5em 4em;
   }
-
-  #crop{
-    
-  }
-
-  #crop img{
-    object-fit: cover;
-    height: 30vh;
-    width:30vw;
-}
 
 
 

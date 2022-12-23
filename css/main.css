@@ -82,6 +82,22 @@ body{
     margin-right: 0em !important;
 }
 
+#grid{
+    margin: auto;
+    max-width:87%;
+}
+
+#crop img{
+    object-fit: cover;
+    width: 66vw;
+    height: 19vh;
+    padding-bottom: 1em;
+}
+
+#crop p{
+    text-align: center;
+    margin-left: -2em;
+}
 
 
 .skies-text{
