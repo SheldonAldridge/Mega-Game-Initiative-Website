@@ -4,6 +4,14 @@
   --grey:#BFBFBF;
 }
 
+@media (min-width: 350px) and (min-width: 575px){
+  #crop img{
+    object-fit: cover;
+    width: 40vw;
+    height: 40vw;
+    margin: 0% 30%;
+}
+}
 
 @media (min-width: 576px) {
 

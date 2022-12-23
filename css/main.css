@@ -78,27 +78,19 @@ body{
     color:var(--white);
 }
 
-.row{
-    margin-right: 0em !important;
-}
 
-#grid{
-    margin: auto;
-    max-width:87%;
-}
 
 #crop img{
     object-fit: cover;
-    width: 66vw;
-    height: 19vh;
-    padding-bottom: 1em;
+    width: 40vw;
+    height: 40vw;
+    margin: 0em 5.65em;
 }
 
 #crop p{
     text-align: center;
-    margin-left: -2em;
+    width: 99%;
 }
-
 
 .skies-text{
     width: 700px;
