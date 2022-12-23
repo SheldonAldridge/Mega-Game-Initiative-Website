@@ -82,17 +82,7 @@ body{
     margin-right: 0em !important;
 }
 
-#grid{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    margin: auto;
-}
 
-#crop img{
-    object-fit: cover;
-    height: 7em;
-    width: 7em; 
-}
 
 .skies-text{
     width: 700px;
