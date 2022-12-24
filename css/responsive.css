@@ -6,10 +6,20 @@
 
 @media (min-width: 350px) {
 
+  #grid {
+    margin: 1em auto;
+  }
+
+  #crop{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 0 0.2em;
+  }
+
   #crop img{
     object-fit: cover;
-    width: 50%;
-    height: 40vw;
+    width: 96%;
+    height: 44vw;
     padding-bottom: 1em;
 }
 
