@@ -18,9 +18,8 @@
 
   #crop img{
     object-fit: cover;
-    width: 96%;
-    height: 44vw;
-    padding-bottom: 1em;
+    width: auto;
+    aspect-ratio: 1;
 }
 }
 
@@ -38,10 +37,8 @@
 
   #crop img{
     object-fit: cover;
-    width: 100%;
-    height: 22vh;
-    padding-bottom: 1em;
-    padding-left: 1em;
+    width: auto;
+    aspect-ratio: 1;
 }
 }
 
@@ -59,10 +56,8 @@
 
   #crop img{
     object-fit: cover;
-    width: 50%;
-    height: 12vh;
-    padding-bottom: 1em;
-    padding-left: 1em;
+    width: auto;
+    aspect-ratio: 1;
 }
 
 #image{
@@ -100,10 +95,8 @@
 
   #crop img{
     object-fit: cover;
-    width: 60%;
-    height: 22vh;
-    padding-bottom: 1em;
-    padding-left: 1em;
+    width: auto;
+    aspect-ratio: 1;
 }
 
   #full-width {
@@ -137,10 +130,8 @@
 
   #crop img{
     object-fit: cover;
-    width: 50%;
-    height: 22vh;
-    padding-bottom: 1em;
-    padding-left: 1em;
+    width: auto;
+    aspect-ratio: 1;
 }
 
 #image {
@@ -205,17 +196,16 @@
     grid-template-columns: repeat(2,1fr);
     margin: -0.5em;
   }
-
+  
   #crop img{
     object-fit: cover;
     width: 50%;
-    height: 26vh;
+    aspect-ratio: 1;
     padding-bottom: 1em;
-    padding-left: 1em;
 }
 
 #image {
-  margin-left: 19em;
+  margin-left: 18em;
 }
 
   .navbar-nav{
@@ -256,13 +246,13 @@
 
   #crop img{
     object-fit: cover;
-    width: 56%;
-    height: 34vh;
+    width: 50%;
+    aspect-ratio: 1;
     padding-bottom: 1em;
 }
 
 #image {
-  margin-left: 19em;
+  margin-left: 21em;
 }
 
   #banner {

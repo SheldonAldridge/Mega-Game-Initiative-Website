@@ -86,8 +86,8 @@ body{
 
 #crop img{
     object-fit: cover;
-    width: 98%;
-    height: 40vw;
+    width: auto;
+    aspect-ratio: 1;
     padding-bottom: 1em;
 }
 
