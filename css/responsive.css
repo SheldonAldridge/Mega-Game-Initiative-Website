@@ -22,6 +22,7 @@
     height: 44vw;
     padding-bottom: 1em;
 }
+}
 
 @media (min-width: 500px) {
 
@@ -42,11 +43,30 @@
     padding-bottom: 1em;
     padding-left: 1em;
 }
+}
 
 @media (min-width: 576px) {
 
-  .img-fluid {
-    padding: 0em 3em;
+  #grid {
+    margin: 1em auto;
+  }
+
+  #crop{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: -0.5em;
+  }
+
+  #crop img{
+    object-fit: cover;
+    width: 50%;
+    height: 12vh;
+    padding-bottom: 1em;
+    padding-left: 1em;
+}
+
+#image{
+  margin-left: 9em;
 }
 
   #full-width {
@@ -64,31 +84,26 @@
     margin: 1em 4em;
   }
 
-  #grid{
-    display: flex;
-    
-    max-width:87%;
-}
-
-#crop img {
-  object-fit: cover;
-  width: 40vw;
-  height: 14vh;
-  padding-bottom: 1em;
-}
-
-#crop p{
-    text-align: center;
-    margin-left: -2em;
-    position: absolute;
-}
-
 }
 
 @media (min-width: 768px){
 
-  .img-fluid {
-    padding: 0em 6em;
+  #grid {
+    margin: 1em auto;
+  }
+
+  #crop{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: -0.5em;
+  }
+
+  #crop img{
+    object-fit: cover;
+    width: 60%;
+    height: 22vh;
+    padding-bottom: 1em;
+    padding-left: 1em;
 }
 
   #full-width {
@@ -110,8 +125,26 @@
 
 @media (min-width: 992px) {
 
-  .img-fluid {
-    padding: 0em 6em;
+  #grid {
+    margin: 1em auto;
+  }
+
+  #crop{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: -0.5em;
+  }
+
+  #crop img{
+    object-fit: cover;
+    width: 50%;
+    height: 22vh;
+    padding-bottom: 1em;
+    padding-left: 1em;
+}
+
+#image {
+  margin-left: 15em;
 }
 
   #full-width {
@@ -130,6 +163,10 @@
 
   .nav-link{
     font-size: 22px;
+}
+
+#darkblue {
+  padding-right: 0em;
 }
 
   #question-blue,#grey{
@@ -159,7 +196,27 @@
 }
 
 @media (min-width: 1200px) {
+  #grid {
+    margin: 1em auto;
+  }
 
+  #crop{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: -0.5em;
+  }
+
+  #crop img{
+    object-fit: cover;
+    width: 50%;
+    height: 26vh;
+    padding-bottom: 1em;
+    padding-left: 1em;
+}
+
+#image {
+  margin-left: 19em;
+}
 
   .navbar-nav{
     margin: 0.5em auto;
@@ -187,9 +244,26 @@
 
 @media (min-width: 1400px) {
 
-  #grid{
-    margin: 10em;
+  #grid {
+    margin: 1em auto;
   }
+
+  #crop{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: -0.5em;
+  }
+
+  #crop img{
+    object-fit: cover;
+    width: 56%;
+    height: 34vh;
+    padding-bottom: 1em;
+}
+
+#image {
+  margin-left: 19em;
+}
 
   #banner {
     padding: 1em 10em;
