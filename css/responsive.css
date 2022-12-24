@@ -11,19 +11,18 @@
   }
 
   #crop{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    margin: 0 0.2em;
+    display: block;
+
   }
 
-  #crop img{
-    object-fit: cover;
-    width: auto;
-    aspect-ratio: 1;
-}
 }
 
 @media (min-width: 500px) {
+
+  #banner {
+    padding: 0.5em 6em;
+}
+
 
   #grid {
     margin: 1em auto;
@@ -37,8 +36,12 @@
 
   #crop img{
     object-fit: cover;
-    width: auto;
+    width: 50%;
     aspect-ratio: 1;
+}
+
+  #image{
+  margin-left: 7em;
 }
 }
 
@@ -51,16 +54,16 @@
   #crop{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    margin: -0.5em;
+    margin: -0.5em 0.5em;
   }
 
   #crop img{
     object-fit: cover;
-    width: auto;
+    width: 50%;
     aspect-ratio: 1;
 }
 
-#image{
+  #image{
   margin-left: 9em;
 }
 
@@ -79,9 +82,17 @@
     margin: 1em 4em;
   }
 
+  #image {
+    margin-left: 8em;
+  }
+
 }
 
 @media (min-width: 768px){
+
+  #banner {
+    padding: 0.5em 6em;
+}
 
   #grid {
     margin: 1em auto;
@@ -95,7 +106,7 @@
 
   #crop img{
     object-fit: cover;
-    width: auto;
+    width: 50%;
     aspect-ratio: 1;
 }
 
@@ -114,9 +125,17 @@
     margin: 0em auto;
   }
 
+  #image {
+    margin-left: 11em;
+  }
+
 }
 
 @media (min-width: 992px) {
+
+  #banner {
+    padding: 0.5em 6em;
+}
 
   #grid {
     margin: 1em auto;
@@ -130,12 +149,12 @@
 
   #crop img{
     object-fit: cover;
-    width: auto;
+    width: 50%;
     aspect-ratio: 1;
 }
 
-#image {
-  margin-left: 15em;
+  #image {
+  margin-left: 14em;
 }
 
   #full-width {
@@ -187,6 +206,11 @@
 }
 
 @media (min-width: 1200px) {
+
+  #banner {
+    padding: 0.5em 8em;
+}
+
   #grid {
     margin: 1em auto;
   }
@@ -194,7 +218,7 @@
   #crop{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    margin: -0.5em;
+
   }
   
   #crop img{
@@ -205,7 +229,7 @@
 }
 
 #image {
-  margin-left: 18em;
+  margin-left: 19em;
 }
 
   .navbar-nav{
@@ -267,5 +291,13 @@
 
 
 
+
+}
+
+@media (min-width: 1600px){
+
+  #image {
+    margin-left: 24em;
+  }
 
 }
