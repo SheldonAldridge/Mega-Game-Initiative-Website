@@ -4,13 +4,33 @@
   --grey:#BFBFBF;
 }
 
-@media (min-width: 350px) and (min-width: 575px){
+@media (min-width: 350px) {
+
   #crop img{
     object-fit: cover;
-    width: 40vw;
+    width: 50%;
     height: 40vw;
-    margin: 0% 30%;
+    padding-bottom: 1em;
 }
+
+@media (min-width: 500px) {
+
+  #grid {
+    margin: 1em auto;
+  }
+
+  #crop{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: -0.5em;
+  }
+
+  #crop img{
+    object-fit: cover;
+    width: 100%;
+    height: 22vh;
+    padding-bottom: 1em;
+    padding-left: 1em;
 }
 
 @media (min-width: 576px) {
