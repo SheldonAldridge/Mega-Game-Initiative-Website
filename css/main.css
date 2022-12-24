@@ -39,7 +39,7 @@ body{
     text-decoration: underline !important;
 }
 
-#about-container h1,#skies-container h1{
+#about-container h1,#skies-container h1,#contact-container{
     text-align: center;
     margin: 1em auto;
 }
@@ -78,13 +78,17 @@ body{
     color:var(--white);
 }
 
-
+#grid{
+    display: block;
+    margin: 1em 4em;
+    max-width: 100%;
+}
 
 #crop img{
     object-fit: cover;
-    width: 40vw;
-    height: 40vw;
-    margin: 0em 5.65em;
+    width: 50vw;
+    height: 14vh;
+    padding-bottom: 1em;
 }
 
 #crop p{
